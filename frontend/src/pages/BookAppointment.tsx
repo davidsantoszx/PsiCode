@@ -20,7 +20,8 @@ function BookAppointment() {
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
   const [modality, setModality] = useState<
-    "ONLINE" | "IN_PERSON"
+    "ONLINE" | "IN_PERSON" 
+    
   >("ONLINE");
 
   const [loading, setLoading] = useState(true);
